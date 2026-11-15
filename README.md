@@ -1,21 +1,25 @@
 # GaWDsSHoW Estimate Calculator
 
-A simple first GitHub project. Open `index.html` in a web browser. No installation, subscription, or account is required.
+A free, standalone service estimate calculator. Open `index.html` in any modern browser; no installation or account required. Works offline.
 
-## Features
+## Use
 
-- Onsite technology support: $75 first hour; $35 per additional 30 minutes.
-- Remote support: $30 per 30 minutes.
-- Home organization: $50 first hour; $25 per additional 30 minutes.
-- Customer name and scope of work; printable estimate with Save as PDF through your browser.
-- Works offline. No tracking, external dependencies, or saved customer data.
+1. Enter your own service name.
+2. Set a minimum charge and the number of minutes it covers (both may be zero).
+3. Set the additional price and choose a 15-, 30-, or 60-minute billing block.
+4. Enter estimated service minutes, plus optional customer and scope details.
+5. Select **Print / Save as PDF** and choose your browser's PDF destination.
 
-## Billing assumption
+All amounts use USD. The minimum charge always applies. Time beyond included minutes rounds up to the next full block. Example: $40 covering 60 minutes, plus $20 per 30 minutes, gives $60 for 75 minutes. The initial $25 per 30 minutes is an editable example, not a recommended rate. Taxes are not calculated.
 
-This version rounds any partial billing block up to 30 minutes, with a one-hour minimum for onsite support and organization. Confirm this policy before using the calculator for customer quotes. Estimates exclude taxes and do not process payments.
+## Privacy
 
-## Add to your GitHub repository
+No external scripts, tracking, network requests, or browser storage. Entered details stay in the open page and disappear on refresh or reset. Printed or saved copies are separate records on your device. Review browser print headers and footers before sharing a PDF.
 
+## GitHub update
 
-Do not upload customer records, passwords, or recovery codes. Customer details entered here are held only in the open page; printing or saving a PDF creates a separate copy on your device.
+Upload `index.html` and `README.md` to your repository, replacing the earlier versions. Commit with `Make estimate calculator customizable`. These files contain only the GaWDsSHoW project identity. Check your GitHub commit email/name settings and repository history separately before making the repository public.
 
+## Limits
+
+One service per estimate, 1–480 service minutes, no payments or saved customer records. Use your browser print preview to review long notes and page breaks before sending an estimate.
