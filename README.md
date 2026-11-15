@@ -16,10 +16,6 @@ All amounts use USD. The minimum charge always applies. Time beyond included min
 
 No external scripts, tracking, network requests, or browser storage. Entered details stay in the open page and disappear on refresh or reset. Printed or saved copies are separate records on your device. Review browser print headers and footers before sharing a PDF.
 
-## GitHub update
-
-Upload `index.html` and `README.md` to your repository, replacing the earlier versions. Commit with `Make estimate calculator customizable`. These files contain only the GaWDsSHoW project identity. Check your GitHub commit email/name settings and repository history separately before making the repository public.
-
 ## Limits
 
 One service per estimate, 1–480 service minutes, no payments or saved customer records. Use your browser print preview to review long notes and page breaks before sending an estimate.
